@@ -16,3 +16,4 @@ polly = { path = "../polly" }
 seccomp = { path = "../seccomp" }
 utils = { path = "../utils" }
 vmm = { path = "../vmm" }
+rpc_interface = {path = "../rpc_interface"}

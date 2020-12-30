@@ -304,6 +304,7 @@ dependencies = [
  "logger 0.1.0",
  "mmds 0.1.0",
  "polly 0.0.1",
+ "rpc_interface 0.1.0",
  "seccomp 0.1.0",
  "timerfd 1.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "utils 0.1.0",
@@ -581,6 +582,10 @@ dependencies = [
 name = "regex-syntax"
 version = "0.6.17"
 source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "rpc_interface"
+version = "0.1.0"
 
 [[package]]
 name = "rustc_version"

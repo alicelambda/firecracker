@@ -18,8 +18,6 @@ pub(crate) mod device_manager;
 pub mod memory_snapshot;
 /// Save/restore utilities.
 pub mod persist;
-/// Resource store for configured microVM resources.
-pub mod resources;
 /// microVM RPC API adapters.
 pub mod rpc_interface;
 /// Signal handling utilities.

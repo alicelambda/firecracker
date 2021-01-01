@@ -18,14 +18,10 @@ pub(crate) mod device_manager;
 pub mod memory_snapshot;
 /// Save/restore utilities.
 pub mod persist;
-/// microVM RPC API adapters.
-pub mod rpc_interface;
 /// Signal handling utilities.
 pub mod signal_handler;
 /// microVM state versions.
 pub mod version_map;
-/// Wrappers over structures used to configure the VMM.
-pub mod vmm_config;
 mod vstate;
 
 use std::collections::HashMap;

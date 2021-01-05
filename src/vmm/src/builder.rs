@@ -15,7 +15,7 @@ use crate::device_manager::mmio::MMIODeviceManager;
 use crate::device_manager::{legacy::PortIODeviceManager, persist::MMIODevManagerConstructorArgs};
 #[cfg(target_arch = "x86_64")]
 use crate::persist::{MicrovmState, MicrovmStateError};
-use crate::vmm_config::boot_source::BootConfig;
+use rpc_interface::vmm_config::boot_source::BootConfig;
 use crate::vstate::{
     system::KvmContext,
     vcpu::{Vcpu, VcpuConfig},

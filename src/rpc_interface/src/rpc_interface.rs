@@ -5,9 +5,9 @@ use std::fmt::{Display, Formatter};
 use std::result;
 use std::sync::{Arc, Mutex};
 
-use super::Vmm;
+use vmm::Vmm;
 
-use super::Error as VmmError;
+use vmm::Error as VmmError;
 use crate::builder::{self, StartMicrovmError};
 #[cfg(target_arch = "x86_64")]
 use crate::persist::{self, CreateSnapshotError, LoadSnapshotError};

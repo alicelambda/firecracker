@@ -586,6 +586,9 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 [[package]]
 name = "rpc_interface"
 version = "0.1.0"
+dependencies = [
+ "vmm 0.1.0",
+]
 
 [[package]]
 name = "rustc_version"
